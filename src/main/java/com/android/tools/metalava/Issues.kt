@@ -129,7 +129,6 @@ object Issues {
     val MISSING_COLUMN = Issue(Severity.WARNING, Category.DOCUMENTATION)
     val INVALID_SYNTAX = Issue(Severity.ERROR)
     val UNRESOLVED_IMPORT = Issue(Severity.INFO)
-    val HIDDEN_ABSTRACT_METHOD = Issue(Severity.ERROR)
 
     // API lint
     val START_WITH_LOWER = Issue(Severity.ERROR, Category.API_LINT, "style-conventions")
